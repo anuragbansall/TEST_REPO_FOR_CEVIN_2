@@ -16,13 +16,14 @@ Cevin Bot monitors GitHub issues and automatically:
 TEST_REPO_FOR_CEVIN_2/
 ├── index.html      # Main HTML entry point
 ├── styles.css      # External stylesheet
+├── script.js       # External JavaScript file
 └── README.md       # Project documentation
 ```
 
 ## Files
 
 ### index.html
-The main HTML file that serves as the entry point for the web page. It links to the external `styles.css` stylesheet and displays a simple "Hello, World!" page.
+The main HTML file that serves as the entry point for the web page. It links to the external `styles.css` stylesheet and `script.js` JavaScript file, and displays a simple "Hello, World!" page.
 
 ### styles.css
 The external CSS stylesheet containing all the styling for the project, including:
@@ -31,6 +32,12 @@ The external CSS stylesheet containing all the styling for the project, includin
 - Typography (headings and paragraphs)
 - Link and button styles
 - Utility classes for spacing and alignment
+
+### script.js
+The external JavaScript file containing client-side logic for the project, including:
+- DOM content loaded event listener
+- Dynamic content manipulation
+- Interactive behaviour for the page
 
 ## Getting Started
 
@@ -48,6 +55,11 @@ Then open `index.html` in your preferred browser.
 Please open an issue before submitting a pull request.
 
 ## Changelog
+
+### Issue #13 - Add js file also
+- Created `script.js` as an external JavaScript file
+- Updated `index.html` to link to the external JS file
+- Updated `README.md` with project structure and file documentation
 
 ### Issue #11 - Create HTML, CSS, and README files
 - Created `styles.css` as a separate external stylesheet
